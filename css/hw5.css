@@ -45,8 +45,8 @@
 	padding: 0 10px;
 	height: 35px;
 	color: white;
-	background: url(../img/menu2.png);
-	background-repeat: repeat-x;
+	background-color: #4299d2;
+	background: linear-gradient(top, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 20%, rgba(255, 255, 255, 0.09) 100%);
 }
 .entrar a{
 	color: white;
@@ -59,13 +59,11 @@
 border-left: 1px solid #60b5ed;
 }
 .minhas:hover{
-	background: url(../img/menu2.png);
-	background-repeat: repeat-x;
+	background-color: #4eabda;
 }
 .menu li>a:hover {
 	color: white;
-	background: url(../img/menu2.png);
-	background-repeat: repeat-x;
+	background-color: #4eabda;
 }
 body{
 	background: url(../img/bg.png) fixed top no-repeat;
@@ -74,7 +72,7 @@ body{
 .block{
 	display: inline-block;
 	width: 500px;
-	height: 650px;
+	height: 600px;
 	position: absolute;
 	top: 20%;
 	left: 50%;
@@ -113,7 +111,8 @@ form, .fb{
 	padding: 0;
 	padding-top: 15px;
 	text-align: center;
-	font-family: "Helvetica Neue Regular", Arial, sans-serif;	
+	font-family: "Helvetica Neue Regular", Arial, sans-serif;
+	border: 0px;
 }
 form li{
 	list-style: none;
@@ -176,6 +175,7 @@ input[type=submit] {
 	background-color: #2f7bc5;
 	background: linear-gradient(top, rgba(0,0,0,0.09) 0%, rgba(0,0,0,0.09) 20%, rgba(255,255,255,0.09) 100%);
 	border: 1px solid #67c6e6;
+	border-radius: 3px;
 	}
 .text{
 	display: inline-block;
